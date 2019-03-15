@@ -4,14 +4,25 @@
 
 .sidenav {
   width: 200px;
+  box-shadow: 3px 0 6px rgba(0, 0, 0, 0.24);
 }
 
 .sidenav .mat-toolbar {
   background: inherit;
 }
 
-.mat-toolbar.mat-primary {
+.mat-toolbar .mat-primary {
   position: sticky;
   top: 0;
   z-index: 1;
+}
+.spacer {
+  flex: 1 1 auto;
+}
+
+mat-toolbar a {
+  display: inline-block;
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
 }

@@ -1,6 +1,6 @@
 # Angular Material Table
 
-Project using MongoDB, Express.js, Angular and Node.js
+Project using the Angular Material design component library to add a table and create a custom scss theme.
 
 ## Table of contents
 
@@ -25,7 +25,6 @@ The
 
 * [Angular CLI](https://github.com/angular/angular-cli) version 7.0.6
 * [Angular Material](https://material.angular.io/)
-
 
 ## Setup
 
@@ -61,7 +60,12 @@ Project is: _in progress.
 
 ## Inspiration
 
-Project inspired by Youtube videos: 
+Project inspired by a series of 4 Youtube videos:
+[1. Intro & Setup](https://www.youtube.com/watch?v=u679SQsfRVM&list=PL55RiY5tL51p2R1L8sxaYlzmWh6yIrX8k&index=1),
+[2. Data Table](https://www.youtube.com/watch?v=ao-nY-9biWs&list=PL55RiY5tL51p2R1L8sxaYlzmWh6yIrX8k&index=2),
+[3. Responsive Navigation](https://www.youtube.com/watch?v=Q6qhzG7mObU&list=PL55RiY5tL51p2R1L8sxaYlzmWh6yIrX8k&index=3), &
+[4. Custom Theme](https://www.youtube.com/watch?v=EBnTZwr0RSs&list=PL55RiY5tL51p2R1L8sxaYlzmWh6yIrX8k&index=4)
+tutorials.
 
 ## Contact
 
