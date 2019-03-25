@@ -18,4 +18,8 @@ export class DataTableComponent implements OnInit {
   ngOnInit() {
     this.dataSource = new DataTableDataSource(this.paginator, this.sort);
   }
+
+  onRowClicked(row) {
+    console.log('Row clicked: ', row);
+}
 }
