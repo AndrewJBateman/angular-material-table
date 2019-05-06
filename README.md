@@ -28,8 +28,6 @@ Table of periodic elements used to provide data for columns.
 * [Angular CLI](https://github.com/angular/angular-cli) version 7.0.6
 * [Angular Material](https://material.angular.io/)
 
-– – – – -
-
 ## Setup
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -88,13 +86,14 @@ Mat-sort header is used to allow each column to be sorted in asc or desc order -
 
 ## Status & To-Do List
 
-* Status: Project is a working
+* Status: Project is working and ready to be expanded upon.
 
 * To-Do: Add to the onRowClicked(row) function. Add styling, especially a coloured header.
 
 ## Inspiration
 
-Project inspired by these 4 Youtube tutorials. Note: the Custom Theme Video 4 was out of date due to the Ionic changing to version 4.0:
+Project inspired by these 4 Youtube tutorials. Note: the Custom Theme Youtube Video 4 was out of date due to the Ionic changing to version 4.0:
+
 [1. Intro & Setup](https://www.youtube.com/watch?v=u679SQsfRVM&list=PL55RiY5tL51p2R1L8sxaYlzmWh6yIrX8k&index=1),
 
 [2. Data Table](https://www.youtube.com/watch?v=ao-nY-9biWs&list=PL55RiY5tL51p2R1L8sxaYlzmWh6yIrX8k&index=2),
