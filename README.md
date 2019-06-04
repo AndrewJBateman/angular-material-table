@@ -25,18 +25,17 @@ Table of periodic elements used to provide data for columns.
 
 ## Technologies
 
-* [Angular CLI](https://github.com/angular/angular-cli) version 7.0.6
-* [Angular Material](https://material.angular.io/)
+* [Angular v8.0.0](https://angular.io/)
+
+* [Angular CLI v8.0.1](https://github.com/angular/angular-cli)
+
+* [Angular Material v8.0.0](https://material.angular.io/)
 
 ## Setup
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ## Code Examples
 
@@ -82,17 +81,28 @@ Mat-sort header is used to allow each column to be sorted in asc or desc order -
 ## Features
 
 * Clicking on a row will console.log the data in that row.
+
 * Table now has a sticky header.
+
+* Updated to Angular & Angular/material 8.
+
+* In `data-table.component.ts`: Breaking change on ViewChild decorator: `error TS2554: Expected 2 arguments, but got 1 in v8` fixed by adding the 'static' flag to both ViewChile decorators:
+
+```typescript
+@ViewChild(MatPaginator, {static: true}) paginator: MatPaginator;
+@ViewChild(MatSort, {static: true}) sort: MatSort;
+
+```
 
 ## Status & To-Do List
 
-* Status: Project is working and ready to be expanded upon.
+* Status: Compiles and displays in browser with zero errors. Working pagination and sorting.
 
 * To-Do: Add to the onRowClicked(row) function. Add styling, especially a coloured header.
 
 ## Inspiration
 
-Project inspired by these 4 Youtube tutorials. Note: the Custom Theme Youtube Video 4 was out of date due to the Ionic changing to version 4.0:
+Project inspired by these 4 Youtube tutorials. Note: the Custom Theme Youtube Video 4 was out of date. Beware other breaking changes due to change to Angular 8:
 
 [1. Intro & Setup](https://www.youtube.com/watch?v=u679SQsfRVM&list=PL55RiY5tL51p2R1L8sxaYlzmWh6yIrX8k&index=1),
 
