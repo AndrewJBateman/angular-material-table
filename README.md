@@ -25,15 +25,12 @@ Table of periodic elements used to provide data for columns.
 
 ## Technologies
 
-* [Angular v8.0.0](https://angular.io/)
-
-* [Angular CLI v8.0.1](https://github.com/angular/angular-cli)
-
+* [Angular v9.1.0](https://angular.io/)
 * [Angular Material v8.0.0](https://material.angular.io/)
 
 ## Setup
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Install dependencies using `npm i` then run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
@@ -81,11 +78,8 @@ Mat-sort header is used to allow each column to be sorted in asc or desc order -
 ## Features
 
 * Clicking on a row will console.log the data in that row.
-
 * Table now has a sticky header.
-
-* Updated to Angular & Angular/material 8.
-
+* Updated to Angular 9 & Angular/material 9.
 * In `data-table.component.ts`: Breaking change on ViewChild decorator: `error TS2554: Expected 2 arguments, but got 1 in v8` fixed by adding the 'static' flag to both ViewChile decorators:
 
 ```typescript
@@ -96,22 +90,18 @@ Mat-sort header is used to allow each column to be sorted in asc or desc order -
 
 ## Status & To-Do List
 
-* Status: Compiles and displays in browser with zero errors. Working pagination and sorting.
-
+* Status: Compiles and displays in browser with zero errors. Working pagination and sorting. Updated to latest Angular 9 and all working as before, no errors and no dependency conflicts.
 * To-Do: Add to the onRowClicked(row) function. Add styling, especially a coloured header.
 
 ## Inspiration
 
-Project inspired by these 4 Youtube tutorials. Note: the Custom Theme Youtube Video 4 was out of date. Beware other breaking changes due to change to Angular 8:
+Project inspired by these 4 Youtube tutorials. Note: the Custom Theme Youtube Video 4 was out of date. Beware other breaking changes due to change to Angular 9:
 
 [1. Intro & Setup](https://www.youtube.com/watch?v=u679SQsfRVM&list=PL55RiY5tL51p2R1L8sxaYlzmWh6yIrX8k&index=1),
-
 [2. Data Table](https://www.youtube.com/watch?v=ao-nY-9biWs&list=PL55RiY5tL51p2R1L8sxaYlzmWh6yIrX8k&index=2),
-
 [3. Responsive Navigation](https://www.youtube.com/watch?v=Q6qhzG7mObU&list=PL55RiY5tL51p2R1L8sxaYlzmWh6yIrX8k&index=3),
-
 [4. Custom Theme](https://www.youtube.com/watch?v=EBnTZwr0RSs&list=PL55RiY5tL51p2R1L8sxaYlzmWh6yIrX8k&index=4)
 
 ## Contact
 
-Created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
