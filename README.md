@@ -1,40 +1,43 @@
-# Angular Material Table
+# :zap: Angular Material Table
 
-App using the [Angular Material design component library](https://material.angular.io/) to add a table using mat-table and experiment with different themes.
+* App using the [Angular Material design component library](https://material.angular.io/) to add a table using mat-table and experiment with different themes.
 
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
-## Table of contents
+## :page_facing_up: Table of contents
 
-* [General info](#general-info)
-* [Screenshots](#screenshots)
-* [Technologies](#technologies)
-* [Setup](#setup)
-* [Features](#features)
-* [Status](#status)
-* [Inspiration](#inspiration)
-* [Contact](#contact)
+* [:zap: Angular Material Table](#zap-angular-material-table)
+  * [:page_facing_up: Table of contents](#pagefacingup-table-of-contents)
+  * [:books: General info](#books-general-info)
+  * [:camera: Screenshots](#camera-screenshots)
+  * [:signal_strength: Technologies](#signalstrength-technologies)
+  * [:floppy_disk: Setup](#floppydisk-setup)
+  * [:computer: Code Examples](#computer-code-examples)
+  * [:cool: Features](#cool-features)
+  * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
+  * [:clap: Inspiration](#clap-inspiration)
+  * [:envelope: Contact](#envelope-contact)
 
-## General info
+## :books: General info
 
-Table of periodic elements used to provide data for columns.
+* Table of periodic elements used to provide data for columns.
 
-## Screenshots
+## :camera: Screenshots
 
 ![Example screenshot](./img/table+rows-clicked.png)
 
-## Technologies
+## :signal_strength: Technologies
 
-* [Angular v9.1.0](https://angular.io/)
-* [Angular Material v8.0.0](https://material.angular.io/)
+* [Angular v9](https://angular.io/)
+* [Angular Material v9](https://material.angular.io/)
 
-## Setup
+## :floppy_disk: Setup
 
-Install dependencies using `npm i` then run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* Install dependencies using `npm i` then run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+* Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Code Examples
+## :computer: Code Examples
 
 ```html
 <!-- Data passed to the mat-table component using the dataSource input.
@@ -75,7 +78,7 @@ Mat-sort header is used to allow each column to be sorted in asc or desc order -
 
 ```
 
-## Features
+## :cool: Features
 
 * Clicking on a row will console.log the data in that row.
 * Table now has a sticky header.
@@ -88,20 +91,20 @@ Mat-sort header is used to allow each column to be sorted in asc or desc order -
 
 ```
 
-## Status & To-Do List
+## :clipboard: Status & To-Do List
 
 * Status: Compiles and displays in browser with zero errors. Working pagination and sorting. Updated to latest Angular 9 and all working as before, no errors and no dependency conflicts.
 * To-Do: Add to the onRowClicked(row) function. Add styling, especially a coloured header.
 
-## Inspiration
+## :clap: Inspiration
 
-Project inspired by these 4 Youtube tutorials. Note: the Custom Theme Youtube Video 4 was out of date. Beware other breaking changes due to change to Angular 9:
+* Project inspired by these 4 Youtube tutorials. Note: the Custom Theme Youtube Video 4 was out of date. Beware other breaking changes due to change to Angular 9:
 
-[1. Intro & Setup](https://www.youtube.com/watch?v=u679SQsfRVM&list=PL55RiY5tL51p2R1L8sxaYlzmWh6yIrX8k&index=1),
-[2. Data Table](https://www.youtube.com/watch?v=ao-nY-9biWs&list=PL55RiY5tL51p2R1L8sxaYlzmWh6yIrX8k&index=2),
-[3. Responsive Navigation](https://www.youtube.com/watch?v=Q6qhzG7mObU&list=PL55RiY5tL51p2R1L8sxaYlzmWh6yIrX8k&index=3),
-[4. Custom Theme](https://www.youtube.com/watch?v=EBnTZwr0RSs&list=PL55RiY5tL51p2R1L8sxaYlzmWh6yIrX8k&index=4)
+* [1. Intro & Setup](https://www.youtube.com/watch?v=u679SQsfRVM&list=PL55RiY5tL51p2R1L8sxaYlzmWh6yIrX8k&index=1),
+* [2. Data Table](https://www.youtube.com/watch?v=ao-nY-9biWs&list=PL55RiY5tL51p2R1L8sxaYlzmWh6yIrX8k&index=2),
+* [3. Responsive Navigation](https://www.youtube.com/watch?v=Q6qhzG7mObU&list=PL55RiY5tL51p2R1L8sxaYlzmWh6yIrX8k&index=3),
+* [4. Custom Theme](https://www.youtube.com/watch?v=EBnTZwr0RSs&list=PL55RiY5tL51p2R1L8sxaYlzmWh6yIrX8k&index=4)
 
-## Contact
+## :envelope: Contact
 
-Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
