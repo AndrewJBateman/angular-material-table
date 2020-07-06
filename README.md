@@ -7,11 +7,11 @@
 ## :page_facing_up: Table of contents
 
 * [:zap: Angular Material Table](#zap-angular-material-table)
-  * [:page_facing_up: Table of contents](#pagefacingup-table-of-contents)
+  * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
   * [:books: General info](#books-general-info)
   * [:camera: Screenshots](#camera-screenshots)
-  * [:signal_strength: Technologies](#signalstrength-technologies)
-  * [:floppy_disk: Setup](#floppydisk-setup)
+  * [:signal_strength: Technologies](#signal_strength-technologies)
+  * [:floppy_disk: Setup](#floppy_disk-setup)
   * [:computer: Code Examples](#computer-code-examples)
   * [:cool: Features](#cool-features)
   * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
@@ -28,8 +28,8 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v9](https://angular.io/)
-* [Angular Material v9](https://material.angular.io/)
+* [Angular v10](https://angular.io/)
+* [Angular Material v10](https://material.angular.io/)
 
 ## :floppy_disk: Setup
 
@@ -82,7 +82,7 @@ Mat-sort header is used to allow each column to be sorted in asc or desc order -
 
 * Clicking on a row will console.log the data in that row.
 * Table now has a sticky header.
-* Updated to Angular 9 & Angular/material 9.
+* Updated to Angular 10 & Angular-Material 10.
 * In `data-table.component.ts`: Breaking change on ViewChild decorator: `error TS2554: Expected 2 arguments, but got 1 in v8` fixed by adding the 'static' flag to both ViewChile decorators:
 
 ```typescript
@@ -93,12 +93,12 @@ Mat-sort header is used to allow each column to be sorted in asc or desc order -
 
 ## :clipboard: Status & To-Do List
 
-* Status: Compiles and displays in browser with zero errors. Working pagination and sorting. Updated to latest Angular 9 and all working as before, no errors and no dependency conflicts.
+* Status: Compiles and displays in browser with zero errors. Working pagination and sorting. Updated to latest Angular 10 and all working as before, no errors and no dependency conflicts.
 * To-Do: Add to the onRowClicked(row) function. Add styling, especially a coloured header.
 
 ## :clap: Inspiration
 
-* Project inspired by these 4 Youtube tutorials. Note: the Custom Theme Youtube Video 4 was out of date. Beware other breaking changes due to change to Angular 9:
+* Project inspired by these 4 Youtube tutorials. Note: the Custom Theme Youtube Video 4 was out of date. Beware other breaking changes due to change to Angular 9/10:
 
 * [1. Intro & Setup](https://www.youtube.com/watch?v=u679SQsfRVM&list=PL55RiY5tL51p2R1L8sxaYlzmWh6yIrX8k&index=1),
 * [2. Data Table](https://www.youtube.com/watch?v=ao-nY-9biWs&list=PL55RiY5tL51p2R1L8sxaYlzmWh6yIrX8k&index=2),
