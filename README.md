@@ -93,7 +93,7 @@ Mat-sort header is used to allow each column to be sorted in asc or desc order -
 
 ## :clipboard: Status & To-Do List
 
-* Status: Compiles and displays in browser with zero errors. Working pagination and sorting. Updated to latest Angular 10 and all working as before, no errors and no dependency conflicts.
+* Status: Working.
 * To-Do: Add to the onRowClicked(row) function. Add styling, especially a coloured header.
 
 ## :clap: Inspiration
