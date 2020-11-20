@@ -28,12 +28,13 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v10](https://angular.io/)
-* [Angular Material v10](https://material.angular.io/)
+* [Angular v11](https://angular.io/)
+* [Angular Material v11](https://material.angular.io/)
 
 ## :floppy_disk: Setup
 
-* Install dependencies using `npm i` then run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* Install dependencies using `npm i`
+* Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 * Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
@@ -82,7 +83,6 @@ Mat-sort header is used to allow each column to be sorted in asc or desc order -
 
 * Clicking on a row will console.log the data in that row.
 * Table now has a sticky header.
-* Updated to Angular 10 & Angular-Material 10.
 * In `data-table.component.ts`: Breaking change on ViewChild decorator: `error TS2554: Expected 2 arguments, but got 1 in v8` fixed by adding the 'static' flag to both ViewChile decorators:
 
 ```typescript
@@ -98,7 +98,7 @@ Mat-sort header is used to allow each column to be sorted in asc or desc order -
 
 ## :clap: Inspiration
 
-* Project inspired by these 4 Youtube tutorials. Note: the Custom Theme Youtube Video 4 was out of date. Beware other breaking changes due to change to Angular 9/10:
+* Project inspired by these 4 Youtube tutorials. Note: the Custom Theme Youtube Video 4 was out of date. Beware other breaking changes due to change to Angular 9/10/11:
 
 * [1. Intro & Setup](https://www.youtube.com/watch?v=u679SQsfRVM&list=PL55RiY5tL51p2R1L8sxaYlzmWh6yIrX8k&index=1),
 * [2. Data Table](https://www.youtube.com/watch?v=ao-nY-9biWs&list=PL55RiY5tL51p2R1L8sxaYlzmWh6yIrX8k&index=2),
