@@ -103,7 +103,7 @@ Mat-sort header is used to allow each column to be sorted in asc or desc order -
 
 ## :clap: Inspiration
 
-* Project inspired by these 4 Youtube tutorials. Note: the Custom Theme Youtube Video 4 was out of date. Beware other breaking changes due to Angular major version updates:
+* Project inspired by these 4 Youtube tutorials. Note: the Custom Theme Youtube Video 4 was out of date. Breaking changes were fixed due to Angular major version updates:
 
 * [1. Intro & Setup](https://www.youtube.com/watch?v=u679SQsfRVM&list=PL55RiY5tL51p2R1L8sxaYlzmWh6yIrX8k&index=1),
 * [2. Data Table](https://www.youtube.com/watch?v=ao-nY-9biWs&list=PL55RiY5tL51p2R1L8sxaYlzmWh6yIrX8k&index=2),
