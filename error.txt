@@ -1,0 +1,17 @@
+Error: src/app/data-table/data-table-datasource.ts:96:18 - error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'EventEmitter<PageEvent> | EventEmitter<Sort> | Observable<DataTableItem[]>' is not assignable to parameter
+of type 'number | SchedulerLike | ObservableInput<DataTableItem[]>'.
+      Type 'EventEmitter<PageEvent>' is not assignable to type 'number | SchedulerLike | ObservableInput<DataTableItem[]>'.
+        Type 'EventEmitter<PageEvent>' is not assignable to type 'Observable<DataTableItem[]>'.
+          Types of property 'operator' are incompatible.
+            Type 'Operator<any, PageEvent>' is not assignable to type 'Operator<any, DataTableItem[]>'.
+              Type 'PageEvent' is missing the following properties from type 'DataTableItem[]': pop, push, concat, join, and 25 more.
+
+              return merge(...dataMutations).pipe(
+                    ~~~~~~~~~~~~~~~~
+
+  node_modules/rxjs/dist/types/internal/observable/merge.d.ts:8:25
+    8 export declare function merge<A extends readonly unknown[]>(...sourcesAndConcurrencyAndScheduler: [...ObservableInputTuple<A>, number?, SchedulerLike?]): Observable<A[number]>;
+                              ~~~~~
+    The last overload is declared here.

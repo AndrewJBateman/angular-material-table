@@ -33,8 +33,8 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v12](https://angular.io/)
-* [Angular Material v12](https://material.angular.io/)
+* [Angular v13](https://angular.io/)
+* [Angular Material v13](https://material.angular.io/)
 
 ## :floppy_disk: Setup
 
@@ -88,7 +88,7 @@ Mat-sort header is used to allow each column to be sorted in asc or desc order -
 
 * Clicking on a row will console.log the data in that row.
 * Table now has a sticky header.
-* In `data-table.component.ts`: Breaking change on ViewChild decorator: `error TS2554: Expected 2 arguments, but got 1 in v8` fixed by adding the 'static' flag to both ViewChile decorators:
+* In `data-table.component.ts`: Breaking change on ViewChild decorator: `error TS2554: Expected 2 arguments, but got 1 in v8` fixed by adding the 'static' flag to both ViewChild decorators:
 
 ```typescript
 @ViewChild(MatPaginator, {static: true}) paginator: MatPaginator;
@@ -98,7 +98,7 @@ Mat-sort header is used to allow each column to be sorted in asc or desc order -
 
 ## :clipboard: Status & To-Do List
 
-* Status: Working.
+* Status: Not working. Error - see `error.txt` file
 * To-Do: Add to the onRowClicked(row) function. Add styling, especially a coloured header.
 
 ## :clap: Inspiration
