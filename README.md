@@ -33,8 +33,8 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v13](https://angular.io/)
-* [Angular Material v13](https://material.angular.io/)
+* [Angular v14-rc1](https://angular.io/)
+* [Angular Material v14-rc1](https://material.angular.io/)
 
 ## :floppy_disk: Setup
 
@@ -68,6 +68,12 @@ Mat-sort header is used to allow each column to be sorted in asc or desc order -
       <td mat-cell *matCellDef="let row">{{row.amount}}</td>
     </ng-container>
 
+    <!-- Weight Column -->
+    <ng-container matColumnDef="weight">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Weight</th>
+      <td mat-cell *matCellDef="let row">{{ row.weight }}</td>
+    </ng-container>
+
     <!-- Sticky header added, onRowClick function added -->
     <tr mat-header-row *matHeaderRowDef="displayedColumns; sticky: true"></tr>
     <tr mat-row *matRowDef="let row; columns: displayedColumns;" (click)="onRowClicked(row)"></tr>
@@ -98,8 +104,8 @@ Mat-sort header is used to allow each column to be sorted in asc or desc order -
 
 ## :clipboard: Status & To-Do List
 
-* Status: Not working. Error - see `error.txt` file
-* To-Do: Add to the onRowClicked(row) function. Add styling, especially a coloured header.
+* Status: Working.
+* To-Do: Nothing
 
 ## :clap: Inspiration
 
