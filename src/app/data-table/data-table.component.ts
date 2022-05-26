@@ -14,13 +14,13 @@ export class DataTableComponent implements OnInit {
   dataSource: DataTableDataSource;
 
   /** Columns displayed in the table. Columns IDs can be added, removed, or reordered. */
-  displayedColumns = ["id", "name", "amount"];
+  displayedColumns = ["id", "name", "amount", "weight"];
 
   ngOnInit() {
     this.dataSource = new DataTableDataSource(this.paginator, this.sort);
   }
 
-  onRowClicked(row) {
+  onRowClicked(row: Object) {
     console.log("Row clicked: ", row);
   }
 }
