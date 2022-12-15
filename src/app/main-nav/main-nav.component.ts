@@ -1,7 +1,5 @@
-import { Component } from "@angular/core";
+import { Component, OnInit } from "@angular/core";
 import { BreakpointObserver, Breakpoints } from "@angular/cdk/layout";
-import { Observable } from "rxjs";
-import { map } from "rxjs/operators";
 
 @Component({
   // tslint:disable-next-line: component-selector
@@ -9,10 +7,15 @@ import { map } from "rxjs/operators";
   templateUrl: "./main-nav.component.html",
   styleUrls: ["./main-nav.component.css"],
 })
-export class MainNavComponent {
-  isHandset$: Observable<boolean> = this.breakpointObserver
-    .observe(Breakpoints.Handset)
-    .pipe(map((result) => result.matches));
+export class MainNavComponent implements OnInit {
+  isHandset: boolean
 
   constructor(private breakpointObserver: BreakpointObserver) {}
+
+  ngOnInit(): void {
+    this.breakpointObserver.observe(Breakpoints.Handset)
+    .subscribe(async result => {
+      this.isHandset = result.matches
+    })
+  }
 }
