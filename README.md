@@ -33,8 +33,8 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v15](https://angular.io/)
-* [Angular Material v15](https://material.angular.io/)
+* [Angular v16](https://angular.io/)
+* [Angular Material v16](https://material.angular.io/)
 
 ## :floppy_disk: Setup
 
@@ -59,13 +59,13 @@ ngOnInit(): void {
 
 ## :cool: Features
 
-* Clicking on a row will console.log the data in that row.
-* Table now has a sticky header.
+* Clicking on a row will console.log the data in that row
+* Table now has a sticky header
 * Table columns now sortable
 
 ## :clipboard: Status & To-Do List
 
-* Status: Working.
+* Status: Working
 * To-Do: Nothing
 
 ## :clap: Inspiration
@@ -78,4 +78,4 @@ ngOnInit(): void {
 
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@gmail.com
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: `gomezbateman@gmail.com`
